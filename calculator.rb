@@ -15,6 +15,8 @@ class Calculator
       if ele < 0
         negative_nums.push(ele)
         next
+      elsif ele > 1000
+        next
       end
       sum += ele
     end
